@@ -7,4 +7,4 @@ period: 2026.09 -- Now
 collection: portfolio
 permalink: "/portfolio/real-to-sim-to-real/"
 ---
-<p>Research on <a href="https://internrobotics.github.io/internw0/">InternW0</a>, a foundational physical world model for real-world interactions, focusing on rigid–deformable coupled dynamics simulation and frictional contact solving based on Incremental Potential Contact (IPC), physical parameter learning from real-world interaction data, force and tactile data synthesis, and robot manipulation policy transfer.</p>
+<p>Research supporting the training and evaluation of <a href="https://internrobotics.github.io/internw0/">InternW0</a>, focusing on physical interaction modeling and simulation based on Incremental Potential Contact (IPC), physical parameter learning from real-world interaction data, force and tactile data synthesis, and Real2Sim2Real robot manipulation.</p>
