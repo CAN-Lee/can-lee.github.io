@@ -26,3 +26,9 @@ My current research interests focus on **world models**, including visual recons
 ## Experience
 
 {% include work-experience-list.html %}
+
+## Misc
+
+Outside of research, I enjoy playing football.
+
+<img src="{{ '/images/football.jpeg' | relative_url }}" alt="Playing football on the pitch" width="2228" height="3904" loading="lazy" style="display: block; width: 320px; max-width: 100%; height: auto; border-radius: 8px;">
