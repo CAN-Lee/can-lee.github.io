@@ -1,13 +1,16 @@
 ---
-title: Real-to-sim Tactile Modeling and Visual-tactile Robotic Manipulation
-date: 2025-01-01 00:00:00.000000000 +00:00
-role: Research intern
-organization: "<a href='https://www.a4x.io/'>A4x (Rightly Robotics)</a>, Hangzhou, China"
+title: 4D Gaussian Reconstruction from Monocular Dynamic Videos
+date: 2025-02-01 00:00:00.000000000 +00:00
+project_order: 4
+role: Research Intern
+organization: "<a href='https://www.a4x.io/'>A4x</a>, Hangzhou, China"
 period: 2025.02 -- 2025.08
 collection: portfolio
-permalink: "/portfolio/tactile-manipulation/"
+permalink: "/portfolio/4d-gaussian-reconstruction/"
+redirect_from:
+  - /portfolio/tactile-manipulation/
 ---
 <ul>
-<li>Design and fabrication of high-frequence magnetic tactile sensors and a visual-tactile-force UMI-style gripper for data collection. Real-to-sim modeling of tactile sensors based on finite element method for tactile data synthesis.</li>
-<li>Learning visual-tactile manipulation via a Diffusion Policy framework, enabling fine-grained and robust manipulation skills for deformable objects.</li>
+<li><strong>Foundation-model priors:</strong> Use VGGT to initialize geometry and camera poses; combine SAM 2 video segmentation, CoTracker point tracking, and Depth Anything depth estimation to constrain monocular dynamic Gaussian reconstruction and recover geometry, appearance, and motion.</li>
+<li><strong>Motion fields and dynamic rendering:</strong> Fit Gaussians' global SE(3) motion and local non-rigid deformation in stages using local residual motion control points. Adaptively add/prune these motion control points to refine local motion and deformation, enabling dynamic novel-view rendering and dense 3D trajectory extraction.</li>
 </ul>

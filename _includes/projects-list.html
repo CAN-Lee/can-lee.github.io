@@ -1,7 +1,7 @@
 {% include base_path %}
 
 
-{% assign projects = site.portfolio | sort: 'date' | reverse %}
+{% assign projects = site.portfolio | sort: 'project_order' %}
 {% assign collapsed_projects = false %}
 {% for post in projects %}
   {% if include.collapse and post.permalink == '/portfolio/intelligent-assembly/' %}

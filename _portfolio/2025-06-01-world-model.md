@@ -1,17 +1,17 @@
 ---
-title: Physics-grounded World Model from Videos/Images
-date: 2025-06-01 00:00:00.000000000 +00:00
-role: Research intern
-organization: "<a href='https://www.a4x.io/'>A4x (Rightly Robotics)</a>, Hangzhou, China"
+title: Interactive Physics-driven 4D World Models (DeformMaster, DeformSmith)
+date: 2025-09-01 00:00:00.000000000 +00:00
+project_order: 1
+role: Research Intern
+organization: "<a href='https://www.a4x.io/'>A4x</a>, Hangzhou, China"
 period: 2025.09 -- 2026.09
 collection: portfolio
 permalink: "/portfolio/world-model/"
 ---
 <ul>
-<li>Reconstruct, simulate, and generate physics-grounded 4D world models that encompass not only geometry, appearance, and temporal motion but also underlying physical attributes, governing dynamics laws, and causal interaction.</li>
-<li><a href="https://can-lee.github.io/deformmaster-web/">DeformMaster</a>: an interactive physics-neural world model for deformable objects from videos.</li>
-<li><a href="https://can-lee.github.io/deformsmith-web/">DeformSmith</a>: generate deformable assets from text or a single image with a hierarchy of agents for geometry, physical modeling, material behavior, and robot interaction.</li>
-<li>Applications: high-fidelity data synthesis and robotic manipulation of deformable objects.</li>
+<li><strong>3D reconstruction and dynamics:</strong> Recover deformable objects' geometry, appearance, and motion from videos, combining differentiable rendering (Gaussian Splatting), differentiable physics (MPM, spring–mass), and neural dynamics to model deformation, physical properties, and motion.</li>
+<li><strong>Interactive simulation and novel-view rendering:</strong> Simulate motion and deformation under new actions with reconstructed physics-driven 4D world models, supporting real-time online rollouts, novel-view rendering, and material parameter adjustment for deformable-object manipulation. See <a href="https://can-lee.github.io/deformmaster-web/">DeformMaster</a>.</li>
+<li><strong>Physics-driven 3D asset generation:</strong> Build a Physics Harness-guided Planner–Designer–Critic agent framework to generate interactive, reusable 3D assets from text or a single image, progressively constructing and validating geometry, physical models, material behavior, and robot interactions. See <a href="https://can-lee.github.io/deformsmith-web/">DeformSmith</a>.</li>
 </ul>
 
 <div class="project-image-pair">
