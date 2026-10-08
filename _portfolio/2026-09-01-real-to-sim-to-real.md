@@ -2,7 +2,7 @@
 title: Foundational Physical World Models for Embodied Interaction
 date: 2026-09-01 00:00:00.000000000 +00:00
 project_order: 2
-role: Physical AI Algorithm Intern
+role: Research Intern
 organization: "<a href='https://www.shlab.org.cn/'>Shanghai AI Lab</a>, Shanghai, China"
 period: 2026.09 -- Present
 collection: portfolio

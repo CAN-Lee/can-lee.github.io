@@ -2,7 +2,7 @@
 title: Multi-sensor Localization and Mapping in Challenging Environments
 date: 2023-09-01 00:00:00.000000000 +00:00
 project_order: 6
-role: 3D Vision Algorithm Intern
+role: Research Intern
 organization: "Tianjin Shanshi Robotics / Nankai University, Tianjin, China"
 period: 2023.09 -- 2023.12
 collection: portfolio
