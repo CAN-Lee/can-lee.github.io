@@ -11,7 +11,7 @@ redirect_from:
 
 I am a Ph.D. student in Robotics at <a href="https://en.nankai.edu.cn/">Nankai University</a>, Tianjin, China. I will soon join <a href="https://www.shlab.org.cn/">Shanghai AI Lab</a> as a research intern. I am a research intern at <a href="https://www.a4x.io/">A4x (Rightly Robotics)</a>.
 
-My current research interests focus on **world models**, including visual reconstruction, differentiable physics simulation, and generation from videos/images. My earlier research interests were in **robotics**, particularly contact-rich manipulation.
+My current research interests focus on **physical world models**, including visual reconstruction, differentiable physics simulation, neural dynamics, and generation from videos/images. My earlier research interests were in **robotics**, particularly contact-rich manipulation.
 
 </div>
 
