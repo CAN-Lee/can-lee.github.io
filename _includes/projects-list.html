@@ -1,0 +1,14 @@
+{% include base_path %}
+
+
+{% assign projects = site.portfolio | sort: 'project_order' %}
+{% assign collapsed_projects = false %}
+{% for post in projects %}
+  {% if include.collapse and post.permalink == '/portfolio/intelligent-assembly/' %}
+    {% assign collapsed_projects = true %}
+<details class="publications-more">
+<summary>more</summary>
+  {% endif %}
+  {% include archive-single.html %}
+{% endfor %}
+{% if collapsed_projects %}</details>{% endif %}

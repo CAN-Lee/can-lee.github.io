@@ -1,0 +1,14 @@
+{% assign record = include.record %}
+{% if record.collection == 'publications' %}
+  <p>{{ record.authors }}<br>
+    {% if record.venue %}<em>{{ record.venue }}</em>, {% endif %}{% if record.year %}{{ record.year }}{% else %}{{ record.date | date: "%Y" }}{% endif %}.
+    {% if record.note %}({{ record.note }}){% endif %}
+    {% if record.arxiv %}<a class="publication-link" href="{{ record.arxiv }}" title="arXiv" aria-label="arXiv"><i class="ai ai-arxiv" aria-hidden="true"></i></a>{% endif %}
+    {% if record.paper %}<a class="publication-link" href="{{ record.paper }}" title="Paper" aria-label="Paper"><i class="fas fa-file-alt" aria-hidden="true"></i></a>{% endif %}
+    {% if record.code %}<a class="publication-link" href="{{ record.code }}" title="Code on GitHub" aria-label="Code on GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>{% endif %}
+    {% if record.video %}[<a href="{{ record.video }}">video</a>]{% endif %}
+    {% if record.website %}<a class="publication-link" href="{{ record.website }}" title="Project website" aria-label="Project website"><i class="fas fa-globe" aria-hidden="true"></i></a>{% endif %}
+  </p>
+{% elsif record.collection == 'portfolio' %}
+  <p>{{ record.period }}<br><em>{{ record.role }}</em><br>{{ record.organization }}</p>
+{% endif %}

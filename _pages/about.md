@@ -1,0 +1,28 @@
+---
+layout: archive
+permalink: /
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
+---
+
+<div class="homepage-bio" markdown="1" lang="en" style="text-align: justify; -webkit-hyphens: auto; hyphens: auto;">
+
+I am a Ph.D. student in Artificial Intelligence at <a href="https://en.nankai.edu.cn/">Nankai University</a>, Tianjin, China. I am a research intern at <a href="https://www.a4x.io/">A4x</a> and <a href="https://www.shlab.org.cn/">Shanghai AI Lab</a>. My current research interests focus on **physical world models**, including 3D vision, physics simulation, and generation. My earlier research interests were in **robotics**, particularly contact-rich manipulation.
+
+</div>
+
+## Publications
+
+{% include publications-list.html collapse=true %}
+
+## Experience
+
+{% include work-experience-list.html %}
+
+## Misc
+
+Outside of research, I enjoy playing football.
+
+<img src="{{ '/images/football.jpeg' | relative_url }}" alt="Playing football on the pitch" width="2228" height="3904" loading="lazy" style="display: block; width: 320px; max-width: 100%; height: auto; border-radius: 8px;">
