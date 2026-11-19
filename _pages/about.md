@@ -9,7 +9,7 @@ redirect_from:
 
 <div class="homepage-bio" markdown="1" lang="en" style="text-align: justify; -webkit-hyphens: auto; hyphens: auto;">
 
-I am a Ph.D. student in Artificial Intelligence at <a href="https://en.nankai.edu.cn/">Nankai University</a>, Tianjin, China. I am a research intern at <a href="https://www.a4x.io/">A4x</a> and <a href="https://www.shlab.org.cn/">Shanghai AI Lab</a>. My current research interests focus on **physical world models**, including 3D vision, physics simulation, and generation. My earlier research interests were in **robotics**, particularly contact-rich manipulation.
+I am a Ph.D. student in the College of Artificial Intelligence at <a href="https://en.nankai.edu.cn/">Nankai University</a>, Tianjin, China. I am a research intern at <a href="https://www.a4x.io/">A4x</a> and <a href="https://www.shlab.org.cn/">Shanghai AI Lab</a>. My current research interests focus on **physical world models**, including 3D vision, physics simulation, and generation. My earlier research interests were in **robotics**, particularly contact-rich manipulation.
 
 </div>
 
